@@ -7,6 +7,8 @@ async function db_connect() {
   } catch (error) {
     console.error("\x1b[31m%s\x1b[0m", "Database connection failed", error);
     process.exit(1); 
+
+    
   }
 }
 
